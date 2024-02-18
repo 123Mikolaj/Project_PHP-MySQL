@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 200;
+  color: whitesmoke;
+  background-color: #111111;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 200;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 40px;
+}
+
+form {
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: #171717;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 200;
+}
+
+input {
+  display: block;
+  padding: 0.5em;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+input[type="submit"] {
+  width: 30%;
+  margin-top: 3em;
+  background-color: rgb(4, 121, 204);
+  color: white;
+  cursor: pointer;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+div.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+div.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+p {
+  text-align: center;
+}
+
+div.container-fluid {
+  background-color: #0d0d0d;
+}
+
+input, textarea, select, button {
+  color: black;
+}
+
+
+
+
+
+/* style navbar */
+.navbar-inverse {
+  background-color: #0d0d0d;
+  overflow: hidden;
+}
+
+.container-fluid {
+  max-width: 70%;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: rgb(15, 142, 238);
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: rgb(15, 142, 238);
+}
+
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:hover {
+  color: rgb(15, 142, 238);
+}
+
+
+
+
+/* style table */
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+form {
+  margin-bottom: 0;
+}
+
+
+
+
