@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Person</title>
+</head>
+<body>
+<h2>Add New Person</h2>
+<form action="/add-person" method="post">
+    <label for="imie">Imię:</label>
+    <input type="text" id="imie" name="imie" pattern="[A-Za-z]+" required><br>
+
+    <label for="wiek">Wiek:</label>
+    <input type="number" id="wiek" name="wiek" min="1" max="150" required><br>
+
+    <label for="nazwisko">Nazwisko:</label>
+    <input type="text" id="nazwisko" name="nazwisko" pattern="[A-Za-z]+" required><br>
+
+    <button type="submit">Dodaj osobę</button>
+</form>
+</body>
+</html>
+
